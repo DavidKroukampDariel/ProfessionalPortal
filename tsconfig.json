@@ -11,6 +11,11 @@
     "lib": [
       "es2016",
       "dom"
-    ]
+    ],
+    "baseUrl": "src",
+    "paths": {
+    	"assets/*": [ "assets/*" ],
+    	"classes/*": [ "classes/*" ]
+    }
   }
 }
