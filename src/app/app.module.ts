@@ -10,6 +10,11 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
 import { AppRoutingModule } from "./app-routing.module";
 import { FullTimeComponent } from './full-time/full-time.component';
+import { WeeklyFeaturesComponent } from './weekly-features/weekly-features.component';
+import { AboutComponent } from './about/about.component';
+import { PartTimeComponent } from './part-time/part-time.component';
+import { FreelanceComponent } from './freelance/freelance.component';
+import { StudentsComponent } from './students/students.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { FullTimeComponent } from './full-time/full-time.component';
     NavComponent,
     HomeComponent,
     PageNotFoundComponent,
-    FullTimeComponent
+    FullTimeComponent,
+    WeeklyFeaturesComponent,
+    AboutComponent,
+    PartTimeComponent,
+    FreelanceComponent,
+    StudentsComponent
   ],
   imports: [
     AppRoutingModule,
