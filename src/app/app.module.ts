@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -15,6 +17,7 @@ import { AboutComponent } from './about/about.component';
 import { PartTimeComponent } from './part-time/part-time.component';
 import { FreelanceComponent } from './freelance/freelance.component';
 import { StudentsComponent } from './students/students.component';
+import { PersonCardComponent } from './person-card/person-card.component';
 
 @NgModule({
   declarations: [
@@ -27,13 +30,16 @@ import { StudentsComponent } from './students/students.component';
     AboutComponent,
     PartTimeComponent,
     FreelanceComponent,
-    StudentsComponent
+    StudentsComponent,
+    PersonCardComponent
   ],
   imports: [
     AppRoutingModule,
+    BrowserAnimationsModule,
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
